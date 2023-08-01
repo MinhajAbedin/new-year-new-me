@@ -1,0 +1,187 @@
+header{
+    background-image: url(images/banner/rsz_1untitled_design.png);
+    background-size:100% auto;
+    height: 808px;
+    background-repeat: no-repeat;
+    margin: 0%;
+
+
+}
+.header-div{
+    padding-top: 100px;
+    padding-right: 200px;
+    
+}
+
+.header-title{
+    color: var(--dark-01, #151414);
+text-align: right;
+font-family: Work Sans;
+font-size: 65px;
+font-weight: 700;
+
+}
+.header-paragraph{
+    color: var(--dark-02, #444343);
+text-align: right;
+font-size: 16px;
+font-weight: 400;
+padding: 10px;
+padding-left: 1280px;
+word-wrap: break-word;
+width: 420px;
+
+}
+.first-btn{
+    color: #173886;
+text-align: right;
+
+font-size: 20px;
+font-weight: 600;
+float: right;
+
+}
+/* First Section */
+.first-section{
+    display: flex;
+    
+}
+.first-section-div1{
+    width: 50%;
+    padding: 10%;
+}
+.first-section-div1-pic{
+    width: 70%;
+    padding: 0%;
+}
+.first-section-title{
+    color: var(--dark-01, #151414);
+font-family: Work Sans;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+/* My Plan */
+.my-plan-title{
+    color: var(--dark-01, #151414);
+    text-align: center;
+font-family: Work Sans;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;  
+}
+.my-plan-div{
+    display: flex;
+    padding-left: 500px;
+}
+.my-plan-div1{
+    padding-left: 60px;
+
+}
+.my-plan-div1-pic{
+    width: 50px;
+    padding-left: 50px;
+}
+.my-plan-div1-h1{
+    color: var(--dark-01, #151414);
+text-align: center;
+font-family: Work Sans;
+font-size: 30px;
+
+font-weight: 700;
+
+}
+.my-plan-div1-h3{
+    color: var(--dark-03, #737272);
+text-align: center;
+font-family: Work Sans;
+font-size: 25px;
+font-style: normal;
+font-weight: 500;
+line-height: normal; 
+}
+
+/* call */
+.call-now{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    padding-left: 150px;
+    
+}
+.call{
+    
+    background-repeat: no-repeat;
+    width: 1140px;
+    height: 300px;
+    border-radius: 8px;
+    background-image: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0.00) 100%), url(images/watch.png);
+    padding-top: 50px;
+    padding-left: 50px;
+    background-size: cover;
+
+}
+.call-now-title{
+    color: #FFF;
+font-family: Work Sans;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.call-btn{
+    color: #F15B22;
+text-align: center;
+font-family: Work Sans;
+font-size: 20px;
+border: none;
+border-radius: 5px;
+font-weight: 600;
+padding: 10px;
+
+}
+/* footer */
+.footer{
+    background: var(--dark-01, #151414);
+    display: flex;
+}
+.footer-div{
+    width: 50%;
+    padding: 100px;
+}
+.footer-div-title{
+    color: #FFF;
+    font-weight: 700;
+    font-size: 45px;
+}
+.footer-para{
+    color: #FFF;
+    font-weight: 300;
+    font-size: 25px;
+    word-wrap: break-word; 
+}
+.footer-h3{
+    color: #FFF;
+    font-weight: 500;
+    font-size: 30px; 
+}
+.footer-mail{
+    width: 280px;
+    height: 40px;
+    border: #F15B22;
+    border-radius: 5px;
+}
+.footer-btn{
+    width: 80px;
+    height: 30px;
+    background-color: rgb(213, 207, 218);
+    border-radius: 3px;
+    padding: 2px;
+    
+}
+.footer-btn:hover{
+    background-color: #173886;
+}
